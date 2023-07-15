@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   width: 100%;
   display: flex;
   align-items: center;
@@ -18,7 +18,9 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  background-color: rgb(27, 27, 27);
+  background: url(/asests/imgs/Group\ 1\ \(3\).png);
+  background-position: center;
+  background-repeat: no-repeat;
 }
 main nav {
   width: 100%;
@@ -26,7 +28,6 @@ main nav {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgba(70, 70, 70, 0.5);
   border-radius: 50px;
   box-shadow: rgb(255, 255, 255) 0 0 4px;
 }
@@ -52,7 +53,8 @@ main .hero .container img {
   margin-bottom: 20px;
   border-radius: 50px;
 }
-main .hero .container h3, p {
+main .hero .container h3,
+main .hero .container p {
   color: white;
   letter-spacing: 2px;
 }
@@ -61,11 +63,11 @@ main .socmed {
 }
 main .socmed .container {
   width: 100%;
-  height: 300px;
+  height: 250px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 main .socmed .container a {
   width: 100%;
@@ -73,10 +75,9 @@ main .socmed .container a {
   text-align: center;
   text-decoration: none;
   color: white;
-  background-color: rgba(70, 70, 70, 0.5);
   border-radius: 50px;
   box-shadow: rgb(255, 255, 255) 0 0 4px;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
 }
 main footer {
   width: 100%;
@@ -87,8 +88,5 @@ main footer p a {
   text-decoration: none;
 }
 main .socmed .container a:hover {
-  background-color: black;
-}
-main .socmed .container a:active{
   background-color: black;
 }
