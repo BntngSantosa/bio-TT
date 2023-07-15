@@ -52,7 +52,7 @@ main .hero .container img {
   margin-bottom: 20px;
   border-radius: 50px;
 }
-main .hero .container h3 {
+main .hero .container h3, p {
   color: white;
   letter-spacing: 2px;
 }
